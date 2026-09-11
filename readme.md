@@ -5,7 +5,7 @@
 
 ## Moduuli 1
 
-Tein tehtävät kaikki tehtävät.
+Tein kaikki tehtävät.
 
 ## Moduuli 2
 
