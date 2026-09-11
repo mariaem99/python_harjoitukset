@@ -1,7 +1,7 @@
 
 # Python harjoitukset
 
-** Maria Erkkilä **
+Maria Erkkilä
 
 ## Moduuli 1
 
