@@ -18,3 +18,7 @@ Tein tehtävät 1, 2, 3 ja 4. Ei ongelmia.
 ## Moduuli 4
 
 Tehtävät 1, 2, 4 ja 5 onnistuivat ok, vaikka olivatkin haastavia. Tehtävä 3 osoittautui ylivoimaiseksi.
+
+## Moduuli 5
+
+Tein tehtävät 1, 2, 3 sekä 4.
