@@ -1,0 +1,14 @@
+import random
+
+def nopan_heitto(tahkot):
+    return random.randint(1, tahkot)
+
+maksimi = int(input("Anna toivomasi maksimi silmalukumaara: "))
+
+while True:
+
+    silmaluku = nopan_heitto(maksimi)
+    print("Saatu silmaluku: ", silmaluku)
+
+    if silmaluku == maksimi:
+     break
