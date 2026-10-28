@@ -1,0 +1,11 @@
+import random
+
+def nopan_heitto():
+    return random.randint(1, 6)
+
+while True:
+    silmaluku = nopan_heitto()
+    print("Saatu silmaluku: ", silmaluku)
+
+    if silmaluku == 6:
+        break
