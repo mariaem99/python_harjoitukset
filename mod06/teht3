@@ -1,0 +1,15 @@
+def bensiini(gallona):
+    return gallona * 3.785
+
+while True:
+    gallona = float(input("Anna bensiinin määrä nestagallonoina: "))
+
+    litra = bensiini(gallona)
+    print("Litramäärä: ", litra)
+
+
+    if gallona < 0:
+     print("Negatiivinen arvo, ohjelma lopetetaan")
+     break
+    
+
