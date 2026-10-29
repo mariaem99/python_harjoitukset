@@ -1,0 +1,13 @@
+def lasketaan_summa(kokonaisluvut):
+    summa = 0
+
+    for kokonaisluku in kokonaisluvut:
+     summa = summa + kokonaisluku
+
+    return summa
+
+numerot = [2, 5, 3, 10]
+
+tulos = lasketaan_summa(numerot)
+
+print("Lukujen summa: ", tulos)
