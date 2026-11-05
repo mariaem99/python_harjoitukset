@@ -1,0 +1,23 @@
+import math
+
+def laske_yksikkohinta(halkaisija, hinta):
+    sade = halkaisija / 2 / 100
+    pinta_ala = math.pi * sade
+    yksikkohinta = hinta / pinta_ala
+    return yksikkohinta
+
+halkaisija1 = float(input("Anna ensimmäisen pizzan halkaisija: "))
+hinta1 = float(input("Anna ensimmäisen pizzan hinta: "))
+
+halkaisija2 = float(input("Anna toisen pizzan halkaisija: "))
+hinta2 = float(input("Anna toisen pizzan hinta: "))
+
+hinta_per_nelio1 = laske_yksikkohinta(halkaisija1, hinta1)
+hinta_per_nelio2 = laske_yksikkohinta(halkaisija2, hinta2)
+
+if hinta_per_nelio1 < hinta_per_nelio2:
+    print("Ensimmäinen pizza antaa paremman vastineen rahalle.")
+elif hinta_per_nelio2 < hinta_per_nelio1:
+    print("Toinen pizza antaa paremman vastineen rahalle.")
+else:
+    print("Pizzoilla on sama yksikköhinta.")

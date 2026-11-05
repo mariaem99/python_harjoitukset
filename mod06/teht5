@@ -1,0 +1,15 @@
+def kokonais_luvut(kokonaisluvut):
+    parilliset_luvut = []
+
+    for luku in kokonaisluvut:
+        if luku % 2 == 0:
+            parilliset_luvut.append(luku)
+
+    return parilliset_luvut
+
+luvut = [2, 3, 5, 7, 9]
+
+karsitut = kokonais_luvut(luvut)
+
+print("Alkuperäinen lista: ", luvut)
+print("Karsittu lista: ", karsitut)
