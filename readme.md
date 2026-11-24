@@ -26,3 +26,7 @@ Tein tehtävät 1, 2, 3 sekä 4.
 ## Moduuli 6
 
 Sain tehtävät jotenkuten tehtyä, vaikka ne tuntuivat haastavilta. Etenkin tehtävä 6. alkaa olemaan jo todella haastava peruskurssilla, etenkin, jos ei ole tarvinut matematiikkaa vuosiin.
+
+## Kertaustehtävät 2
+
+Tehtävien teko onnistui ok, mutta niiden tekeminen vaati paljon aikaa, pohtimista ja korjaamista.
